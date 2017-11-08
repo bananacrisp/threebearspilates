@@ -1,0 +1,40 @@
+* { box-sizing: border-box }
+
+body{
+  margin:0;
+  padding:0;
+  color: black;
+  font-family: 'Slabo 27px', serif;
+}
+
+  /* ----------- Non-Retina Screens ----------- */
+  @media (min-width:500px) {
+    .one{
+      background-color: #013A6B;
+      background-image: -webkit-linear-gradient(315deg, #ffffff 50%, #F07080 50%);
+      height: 100vh;
+    }
+    img {
+      padding: 22px;
+      float:  left;
+    }
+    h1 {
+      font-size:  2.4rem;
+    }
+  }
+
+  @media (max-width:499px) {
+    .one{
+      background-color: #013A6B;
+      background-image: -webkit-linear-gradient(315deg, #ffffff 50%, #F07080 27%);
+      height: 100vh;
+    }
+    img {
+      padding: 6px 15px;
+      float:  left;
+    }
+
+    h1 {
+      font-size:  1.4rem;
+    }
+  }
